@@ -26,9 +26,9 @@ spring:
         persistence:
           validation:
             mode: none
-    show-sql: true
+      show-sql: true
   kafka:
-    consumer:
+      consumer:
             auto-offset-reset: earliest
             bootstrap-servers: localhost:9092
             group-id: invoice
