@@ -9,4 +9,18 @@ server:
   port: 9001
 spring:
   application:
-    name: eurekaserver
+    name: eurekaserver 
+management:
+  endpoint:
+    metrics:
+      enabled: true
+    prometheus:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  metrics:
+    export:
+      prometheus:
+        enabled: true
