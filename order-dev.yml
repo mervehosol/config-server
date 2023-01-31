@@ -14,7 +14,7 @@ spring:
         name: order
     datasource:
         password: 12345
-        url: jdbc:postgresql://rentacarinvoicedb:5432/rentacarinvoicedb
+        url: jdbc:postgresql://rentacarinvoicedb:5439/rentacarinvoicedb
         username: postgres
     jpa:
         hibernate:
