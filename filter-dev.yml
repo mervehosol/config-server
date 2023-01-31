@@ -14,7 +14,7 @@ spring:
         name: filter-service
     data:
         mongodb:
-            database: filterservice
+            database: filterservicedb
             uri: mongodb://localhost:27017
     kafka:
         consumer:
