@@ -14,7 +14,7 @@ spring:
     name: stock
   datasource:
     password: 12345
-    url: jdbc:postgresql://localhost:5432/rentacarinventorydb
+    url: jdbc:postgresql://rentacarinventory:5437/rentacarinventorydb
     username: postgres
   jpa:
     hibernate:
